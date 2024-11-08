@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hipermercado</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Hipermercado</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#produtos">Nossos Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="boas-vindas">
+        <h2>Bem-vindo ao Hiperbolt</h2>
+        <button>Conheça nossas ofertas!</button>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <h3>Sobre Nós</h3>
+        <p>O Hiperbolt é o destino ideal para suas compras, com uma grande variedade de produtos e preços imbatíveis. Nosso objetivo é oferecer qualidade e conveniência para você e sua família.</p>
+    </section>
+
+    <section id="produtos" class="produtos">
+        <h3>Nossos Produtos</h3>
+        <section class="galeria">
+            <figure>
+                <img src="../IMG/arroz.avif" alt="Produto 1">
+                <figcaption>Arroz</figcaption>
+                <figcaption>R$29,98</figcaption>
+            </figure>
+            <figure>
+                <img src="../IMG/chocolate.webp" alt="Produto 2">
+                <figcaption>Chocolate</figcaption>
+                <figcaption>R$15,45</figcaption>
+            </figure>
+            <figure>
+                <img src="../IMG/biscoito.webp" alt="Produto 3">
+                <figcaption>Biscoito</figcaption>
+                <figcaption>R$4,99</figcaption>
+            </figure>
+            <figure>
+                <img src="../IMG/sorvete.png" alt="Produto 4">
+                <figcaption>Sorvete</figcaption>
+                <figcaption>R$21,00</figcaption>
+            </figure>
+            <figure>
+                <img src="../IMG/bala" alt="Produto 5">
+                <figcaption>Bala Fini</figcaption>
+                <figcaption>R$8,35</figcaption>
+            </figure>
+            <figure>
+                <img src="../IMG/it.webp" alt="Produto 6">
+                <figcaption>Refrigerante IT</figcaption>
+                <figcaption>R$4,90</figcaption>
+            </figure>
+        </section>
+    </section>
+
+    <section id="Ofertas" class="oferta"></section>
+    <h3>Ofertas da Semana</h3>
+        <table class="tabela-ofertas">
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Desconto</th>
+            </tr>
+            <tr>
+                <td>Arroz 5kg</td>
+                <td>R$ 29,98</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>Chocolate</td>
+                <td>R$ 15,45</td>
+                <td>5%</td>
+            </tr>
+            <tr>
+                <td>Biscoito</td>
+                <td>R$ 4,99</td>
+                <td>5%</td>
+            </tr>
+            <tr>
+                <td>Sorvete</td>
+                <td>R$ 21,00</td>
+                <td>15%</td>
+            </tr>
+            <tr>
+                <td>Bala Fini</td>
+                <td>R$ 8,35</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>Refrigerante IT</td>
+                <td>R$ 4,90</td>
+                <td>5%</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contato" class="contato">
+        <h3>Contato</h3>
+        <p>Entre em contato conosco para saber mais sobre nossos produtos e serviços:</p>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hipermercado - Todos os direitos reservados.</p>
+        <p>Siga-nos nas redes sociais!</p>
+    </footer>
+</body>
+
+</html>
